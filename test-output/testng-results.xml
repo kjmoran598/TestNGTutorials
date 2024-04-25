@@ -1,62 +1,135 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+<testng-results ignored="1" total="11" passed="10" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-24T20:05:09 PDT" name="Loan Department" finished-at="2024-04-24T20:05:09 PDT" duration-ms="149">
+  <suite started-at="2024-04-25T13:03:28 PDT" name="Loan Department" finished-at="2024-04-25T13:03:28 PDT" duration-ms="191">
     <groups>
+      <group name="Smoke">
+        <method signature="FirstTests.Demo()[pri:0, instance:tests.FirstTests@2bbf180e]" name="Demo" class="tests.FirstTests"/>
+        <method signature="HomeLoans.MobileSearchHome()[pri:0, instance:tests.HomeLoans@d4342c2]" name="MobileSearchHome" class="tests.HomeLoans"/>
+        <method signature="LoanLogins.MobileLogin()[pri:0, instance:tests.LoanLogins@419c5f1a]" name="MobileLogin" class="tests.LoanLogins"/>
+        <method signature="SecondTests.PersonalLoan(java.lang.String)[pri:0, instance:tests.SecondTests@4df50bcc]" name="PersonalLoan" class="tests.SecondTests"/>
+      </group> <!-- Smoke -->
     </groups>
-    <test started-at="2024-04-24T20:05:09 PDT" name="Test" finished-at="2024-04-24T20:05:09 PDT" duration-ms="149">
+    <test started-at="2024-04-25T13:03:28 PDT" name="Test" finished-at="2024-04-25T13:03:28 PDT" duration-ms="191">
       <class name="tests.LoanLogins">
-        <test-method signature="APILogin()[pri:0, instance:tests.LoanLogins@23986957]" started-at="2024-04-24T20:05:09 PDT" name="APILogin" finished-at="2024-04-24T20:05:09 PDT" duration-ms="3" status="PASS">
+        <test-method signature="APICarLogin(java.lang.String,java.lang.String)[pri:0, instance:tests.LoanLogins@419c5f1a]" started-at="2024-04-25T13:03:28 PDT" name="APICarLogin" data-provider="getData" finished-at="2024-04-25T13:03:28 PDT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kevin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mypassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APICarLogin -->
+        <test-method signature="APICarLogin(java.lang.String,java.lang.String)[pri:0, instance:tests.LoanLogins@419c5f1a]" started-at="2024-04-25T13:03:28 PDT" name="APICarLogin" data-provider="getData" finished-at="2024-04-25T13:03:28 PDT" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jack]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hispw]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APICarLogin -->
+        <test-method signature="APICarLogin(java.lang.String,java.lang.String)[pri:0, instance:tests.LoanLogins@419c5f1a]" started-at="2024-04-25T13:03:28 PDT" name="APICarLogin" data-provider="getData" finished-at="2024-04-25T13:03:28 PDT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Alice]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[herpw]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APICarLogin -->
+        <test-method signature="APILogin()[pri:0, instance:tests.LoanLogins@419c5f1a]" started-at="2024-04-25T13:03:28 PDT" name="APILogin" finished-at="2024-04-25T13:03:28 PDT" duration-ms="39" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- APILogin -->
-        <test-method signature="MobileLogin()[pri:0, instance:tests.LoanLogins@23986957]" started-at="2024-04-24T20:05:09 PDT" name="MobileLogin" finished-at="2024-04-24T20:05:09 PDT" duration-ms="2" status="PASS">
+        <test-method signature="MobileLogin()[pri:0, instance:tests.LoanLogins@419c5f1a]" started-at="2024-04-25T13:03:28 PDT" name="MobileLogin" finished-at="2024-04-25T13:03:28 PDT" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MobileLogin -->
-        <test-method signature="WebLogin()[pri:0, instance:tests.LoanLogins@23986957]" started-at="2024-04-24T20:05:09 PDT" name="WebLogin" finished-at="2024-04-24T20:05:09 PDT" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="CleanUpCode()[pri:0, instance:tests.LoanLogins@419c5f1a]" started-at="2024-04-25T13:03:28 PDT" name="CleanUpCode" finished-at="2024-04-25T13:03:28 PDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- WebLogin -->
+        </test-method> <!-- CleanUpCode -->
       </class> <!-- tests.LoanLogins -->
       <class name="tests.SecondTests">
-        <test-method signature="PersonalLoan()[pri:0, instance:tests.SecondTests@7ea37dbf]" started-at="2024-04-24T20:05:09 PDT" name="PersonalLoan" finished-at="2024-04-24T20:05:09 PDT" duration-ms="12" status="PASS">
+        <test-method is-config="true" signature="DeleteOldLoanData()[pri:0, instance:tests.SecondTests@4df50bcc]" started-at="2024-04-25T13:03:28 PDT" name="DeleteOldLoanData" finished-at="2024-04-25T13:03:28 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteOldLoanData -->
+        <test-method signature="PersonalLoan(java.lang.String)[pri:0, instance:tests.SecondTests@4df50bcc]" started-at="2024-04-25T13:03:28 PDT" name="PersonalLoan" finished-at="2024-04-25T13:03:28 PDT" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[google.com]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PersonalLoan -->
       </class> <!-- tests.SecondTests -->
       <class name="tests.FirstTests">
-        <test-method signature="Demo()[pri:0, instance:tests.FirstTests@4c15e7fd]" started-at="2024-04-24T20:05:09 PDT" name="Demo" finished-at="2024-04-24T20:05:09 PDT" duration-ms="5" status="PASS">
+        <test-method signature="Demo()[pri:0, instance:tests.FirstTests@2bbf180e]" started-at="2024-04-25T13:03:28 PDT" name="Demo" finished-at="2024-04-25T13:03:28 PDT" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Demo -->
-        <test-method signature="SecondTest()[pri:0, instance:tests.FirstTests@4c15e7fd]" started-at="2024-04-24T20:05:09 PDT" name="SecondTest" finished-at="2024-04-24T20:05:09 PDT" duration-ms="2" status="PASS">
+        <test-method signature="SecondTest()[pri:0, instance:tests.FirstTests@2bbf180e]" started-at="2024-04-25T13:03:28 PDT" name="SecondTest" finished-at="2024-04-25T13:03:28 PDT" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SecondTest -->
       </class> <!-- tests.FirstTests -->
       <class name="tests.HomeLoans">
-        <test-method signature="APILoginHome()[pri:0, instance:tests.HomeLoans@f8c1ddd]" started-at="2024-04-24T20:05:09 PDT" name="APILoginHome" finished-at="2024-04-24T20:05:09 PDT" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="APILoginHome()[pri:0, instance:tests.HomeLoans@d4342c2]" started-at="2024-04-25T13:03:28 PDT" name="APILoginHome" finished-at="2024-04-25T13:03:28 PDT" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- APILoginHome -->
-        <test-method signature="MobileLoginHome()[pri:0, instance:tests.HomeLoans@f8c1ddd]" started-at="2024-04-24T20:05:09 PDT" name="MobileLoginHome" finished-at="2024-04-24T20:05:09 PDT" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- MobileLoginHome -->
-        <test-method signature="MobilePayHome()[pri:0, instance:tests.HomeLoans@f8c1ddd]" started-at="2024-04-24T20:05:09 PDT" name="MobilePayHome" finished-at="2024-04-24T20:05:09 PDT" duration-ms="4" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- MobilePayHome -->
-        <test-method signature="MobileSearchHome()[pri:0, instance:tests.HomeLoans@f8c1ddd]" started-at="2024-04-24T20:05:09 PDT" name="MobileSearchHome" finished-at="2024-04-24T20:05:09 PDT" duration-ms="5" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- MobileSearchHome -->
-        <test-method signature="WebLoginHome()[pri:0, instance:tests.HomeLoans@f8c1ddd]" started-at="2024-04-24T20:05:09 PDT" name="WebLoginHome" finished-at="2024-04-24T20:05:09 PDT" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="WebLoginHome()[pri:0, instance:tests.HomeLoans@d4342c2]" started-at="2024-04-25T13:03:28 PDT" name="WebLoginHome" finished-at="2024-04-25T13:03:28 PDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- WebLoginHome -->
+        <test-method is-config="true" signature="PreSetup()[pri:0, instance:tests.HomeLoans@d4342c2]" started-at="2024-04-25T13:03:28 PDT" name="PreSetup" finished-at="2024-04-25T13:03:28 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PreSetup -->
+        <test-method signature="MobileSearchHome()[pri:0, instance:tests.HomeLoans@d4342c2]" started-at="2024-04-25T13:03:28 PDT" name="MobileSearchHome" finished-at="2024-04-25T13:03:28 PDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileSearchHome -->
+        <test-method is-config="true" signature="PreSetup()[pri:0, instance:tests.HomeLoans@d4342c2]" started-at="2024-04-25T13:03:28 PDT" name="PreSetup" finished-at="2024-04-25T13:03:28 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PreSetup -->
+        <test-method signature="MobileLoginHome()[pri:0, instance:tests.HomeLoans@d4342c2]" started-at="2024-04-25T13:03:28 PDT" name="MobileLoginHome" finished-at="2024-04-25T13:03:28 PDT" depends-on-methods="tests.HomeLoans.MobileSearchHome" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLoginHome -->
+        <test-method is-config="true" signature="MobilePayHome()[pri:0, instance:tests.HomeLoans@d4342c2]" started-at="2024-04-25T13:03:28 PDT" name="MobilePayHome" finished-at="2024-04-25T13:03:28 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobilePayHome -->
       </class> <!-- tests.HomeLoans -->
     </test> <!-- Test -->
   </suite> <!-- Loan Department -->
