@@ -17,7 +17,21 @@ public class HomeLoans {
 	{
 		//Appium tests
 
-		System.out.println("Appium HOME tests");
+		System.out.println("Appium HOME1 tests");
+	}
+	@Test
+	public void MobileSearchHome()
+	{
+		//Appium tests
+
+		System.out.println("Appium HOME2 tests");
+	}
+	@Test
+	public void MobilePayHome()
+	{
+		//Appium tests
+
+		System.out.println("Appium HOME3 tests");
 	}
 	
 	@Test

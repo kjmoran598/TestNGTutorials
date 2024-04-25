@@ -1,53 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="9" passed="8" failed="0" skipped="0">
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-24T18:40:25 PDT" name="Loan Department" finished-at="2024-04-24T18:40:25 PDT" duration-ms="350">
+  <suite started-at="2024-04-24T20:05:09 PDT" name="Loan Department" finished-at="2024-04-24T20:05:09 PDT" duration-ms="149">
     <groups>
     </groups>
-    <test started-at="2024-04-24T18:40:25 PDT" name="Test" finished-at="2024-04-24T18:40:25 PDT" duration-ms="111">
-      <class name="tests.FirstTests">
-        <test-method signature="Demo()[pri:0, instance:tests.FirstTests@45dd4eda]" started-at="2024-04-24T18:40:25 PDT" name="Demo" finished-at="2024-04-24T18:40:25 PDT" duration-ms="13" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Demo -->
-        <test-method signature="SecondTest()[pri:0, instance:tests.FirstTests@45dd4eda]" started-at="2024-04-24T18:40:25 PDT" name="SecondTest" finished-at="2024-04-24T18:40:25 PDT" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SecondTest -->
-      </class> <!-- tests.FirstTests -->
-      <class name="tests.SecondTests">
-        <test-method signature="PersonalLoan()[pri:0, instance:tests.SecondTests@7fc229ab]" started-at="2024-04-24T18:40:25 PDT" name="PersonalLoan" finished-at="2024-04-24T18:40:25 PDT" duration-ms="5" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- PersonalLoan -->
-      </class> <!-- tests.SecondTests -->
-    </test> <!-- Test -->
-    <test started-at="2024-04-24T18:40:25 PDT" name="Home Loans" finished-at="2024-04-24T18:40:25 PDT" duration-ms="51">
+    <test started-at="2024-04-24T20:05:09 PDT" name="Test" finished-at="2024-04-24T20:05:09 PDT" duration-ms="149">
       <class name="tests.LoanLogins">
-        <test-method signature="APILogin()[pri:0, instance:tests.LoanLogins@6b26e945]" started-at="2024-04-24T18:40:25 PDT" name="APILogin" finished-at="2024-04-24T18:40:25 PDT" duration-ms="3" status="PASS">
+        <test-method signature="APILogin()[pri:0, instance:tests.LoanLogins@23986957]" started-at="2024-04-24T20:05:09 PDT" name="APILogin" finished-at="2024-04-24T20:05:09 PDT" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- APILogin -->
-        <test-method signature="WebLogin()[pri:0, instance:tests.LoanLogins@6b26e945]" started-at="2024-04-24T18:40:25 PDT" name="WebLogin" finished-at="2024-04-24T18:40:25 PDT" duration-ms="3" status="PASS">
+        <test-method signature="MobileLogin()[pri:0, instance:tests.LoanLogins@23986957]" started-at="2024-04-24T20:05:09 PDT" name="MobileLogin" finished-at="2024-04-24T20:05:09 PDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLogin -->
+        <test-method signature="WebLogin()[pri:0, instance:tests.LoanLogins@23986957]" started-at="2024-04-24T20:05:09 PDT" name="WebLogin" finished-at="2024-04-24T20:05:09 PDT" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- WebLogin -->
       </class> <!-- tests.LoanLogins -->
+      <class name="tests.SecondTests">
+        <test-method signature="PersonalLoan()[pri:0, instance:tests.SecondTests@7ea37dbf]" started-at="2024-04-24T20:05:09 PDT" name="PersonalLoan" finished-at="2024-04-24T20:05:09 PDT" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PersonalLoan -->
+      </class> <!-- tests.SecondTests -->
+      <class name="tests.FirstTests">
+        <test-method signature="Demo()[pri:0, instance:tests.FirstTests@4c15e7fd]" started-at="2024-04-24T20:05:09 PDT" name="Demo" finished-at="2024-04-24T20:05:09 PDT" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo -->
+        <test-method signature="SecondTest()[pri:0, instance:tests.FirstTests@4c15e7fd]" started-at="2024-04-24T20:05:09 PDT" name="SecondTest" finished-at="2024-04-24T20:05:09 PDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SecondTest -->
+      </class> <!-- tests.FirstTests -->
       <class name="tests.HomeLoans">
-        <test-method signature="APILoginHome()[pri:0, instance:tests.HomeLoans@318ba8c8]" started-at="2024-04-24T18:40:25 PDT" name="APILoginHome" finished-at="2024-04-24T18:40:25 PDT" duration-ms="7" status="PASS">
+        <test-method signature="APILoginHome()[pri:0, instance:tests.HomeLoans@f8c1ddd]" started-at="2024-04-24T20:05:09 PDT" name="APILoginHome" finished-at="2024-04-24T20:05:09 PDT" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- APILoginHome -->
-        <test-method signature="MobileLoginHome()[pri:0, instance:tests.HomeLoans@318ba8c8]" started-at="2024-04-24T18:40:25 PDT" name="MobileLoginHome" finished-at="2024-04-24T18:40:25 PDT" duration-ms="1" status="PASS">
+        <test-method signature="MobileLoginHome()[pri:0, instance:tests.HomeLoans@f8c1ddd]" started-at="2024-04-24T20:05:09 PDT" name="MobileLoginHome" finished-at="2024-04-24T20:05:09 PDT" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MobileLoginHome -->
-        <test-method signature="WebLoginHome()[pri:0, instance:tests.HomeLoans@318ba8c8]" started-at="2024-04-24T18:40:25 PDT" name="WebLoginHome" finished-at="2024-04-24T18:40:25 PDT" duration-ms="7" status="PASS">
+        <test-method signature="MobilePayHome()[pri:0, instance:tests.HomeLoans@f8c1ddd]" started-at="2024-04-24T20:05:09 PDT" name="MobilePayHome" finished-at="2024-04-24T20:05:09 PDT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobilePayHome -->
+        <test-method signature="MobileSearchHome()[pri:0, instance:tests.HomeLoans@f8c1ddd]" started-at="2024-04-24T20:05:09 PDT" name="MobileSearchHome" finished-at="2024-04-24T20:05:09 PDT" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileSearchHome -->
+        <test-method signature="WebLoginHome()[pri:0, instance:tests.HomeLoans@f8c1ddd]" started-at="2024-04-24T20:05:09 PDT" name="WebLoginHome" finished-at="2024-04-24T20:05:09 PDT" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- WebLoginHome -->
       </class> <!-- tests.HomeLoans -->
-    </test> <!-- Home Loans -->
+    </test> <!-- Test -->
   </suite> <!-- Loan Department -->
 </testng-results>

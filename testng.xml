@@ -3,19 +3,25 @@
 <suite name="Loan Department">
 	<test thread-count="5" name="Test">
 		<classes>
-			<class name="tests.FirstTests" />
+			<class name="tests.FirstTests" >
+			<methods>
+				<include name="SecondTest">
+				</include>
+			</methods>
+			</class>
 			<class name="tests.SecondTests" />
 		</classes>
 	</test>
 	<test name="Home Loans">
 		<classes>
 			<class name="tests.LoanLogins">
-			<!--	DO NOT INCLUDE MOBILE TEST CASES
-					<methods>
-					<exclude name="MobileLogin"></exclude>
-				</methods> -->
 			</class>
-			<class name="tests.HomeLoans" />
+			<class name="tests.HomeLoans">
+							<!--	DO NOT INCLUDE MOBILE TEST CASES -->
+					<methods>
+					<exclude name="Mobile.*"/>
+				</methods> 
+ 			</class>
 		</classes>
 	</test>
 </suite> 
