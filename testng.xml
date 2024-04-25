@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Loan Department">
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="tests.FirstTests" />
+			<class name="tests.SecondTests" />
+		</classes>
+	</test>
+	<test name="Home Loans">
+		<classes>
+			<class name="tests.LoanLogins">
+			<!--	DO NOT INCLUDE MOBILE TEST CASES
+					<methods>
+					<exclude name="MobileLogin"></exclude>
+				</methods> -->
+			</class>
+			<class name="tests.HomeLoans" />
+		</classes>
+	</test>
+</suite> 
