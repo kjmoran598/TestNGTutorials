@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Loan Department]" guice-stage="DEVELOPMENT">
+  <parameter name="URL" value="google.com"/>
+  <test thread-count="5" name="Test(failed)">
+    <groups>
+      <run>
+        <include name="Smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="tests.SecondTests">
+        <methods>
+          <include name="PersonalLoan" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.SecondTests -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Loan Department] -->
