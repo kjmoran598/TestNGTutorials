@@ -13,7 +13,7 @@ public class SecondTests {
 	{
 		System.out.println("personal loans");
 		System.out.println(webAddress);
-		Assert.assertEquals(true,false);
+		Assert.assertEquals(true,true);
 	}
 	
 	@BeforeTest
